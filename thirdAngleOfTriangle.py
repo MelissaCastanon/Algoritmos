@@ -1,3 +1,8 @@
+# Este programa calcula el tercer ángulo de un triángulo cuando se proporcionan los otros dos ángulos.
+# La suma de los ángulos internos de un triángulo siempre es 180 grados, por lo que el tercer ángulo se
+# obtiene restando la suma de los otros dos ángulos de 180. El programa también valida que los ángulos
+# sean positivos y que la suma de los dos ángulos no exceda los 180 grados.
+
 def encontrar_tercer_angulo(angulo1, angulo2):
     # Asegurarse de que los ángulos sean enteros positivos
     if angulo1 <= 0 or angulo2 <= 0:

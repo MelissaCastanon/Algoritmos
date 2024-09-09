@@ -1,3 +1,7 @@
+# Este programa calcula una extrapolación de puntos por juego (ppg) para 48 minutos jugados, basándose en los promedios
+# actuales de puntos por juego (ppg) y minutos por juego (mpg) proporcionados por el usuario. Si el promedio de minutos
+# jugados es 0, el programa retornará 0. El resultado se redondea a la décima más cercana.
+
 def nba_extrap(ppg, mpg):
     # Si mpg es 0, retornamos 0
     if mpg == 0:

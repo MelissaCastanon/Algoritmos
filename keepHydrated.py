@@ -1,3 +1,7 @@
+# Este programa calcula la cantidad de litros de agua que Nathan beberá en función del tiempo transcurrido,
+# asumiendo que bebe 0.5 litros de agua por cada hora. El resultado se redondea hacia abajo utilizando 'math.floor'.
+# El programa solicita al usuario que ingrese el tiempo en horas y valida la entrada para asegurarse de que sea un número.
+
 import math
 def litros_de_agua(tiempo):
     # Calcular la cantidad de litros

@@ -1,3 +1,7 @@
+# Este programa realiza la conversión de la resolución de una pantalla manteniendo constante una dimensión específica
+# (altura, ancho, diagonal o área) mientras ajusta la otra dimensión en función de una relación de aspecto de 16:9.
+# Dependiendo de la constante especificada, el programa calcula la nueva resolución que respeta dicha constante.
+
 import math
 def aspect_ratio_conversion(x, y, constant):
     aspect_ratio = 16 / 9

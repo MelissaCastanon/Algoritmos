@@ -1,3 +1,7 @@
+# Este programa solicita al usuario un número y lo redondea a dos decimales. Utiliza una función que aplica
+# la función de Python 'round()' para hacer el redondeo y luego muestra el resultado en formato decimal.
+
+
 def round_to_two_decimal_places(number):
     # Redondear el número a dos decimales
     return round(number, 2)

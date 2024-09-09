@@ -1,3 +1,8 @@
+# Este programa calcula el costo total de mangos aplicando una oferta: por cada grupo de 3 mangos,
+# solo se cobra el precio de 2 mangos. El programa solicita al usuario la cantidad de mangos y el precio
+# por mango, luego calcula el costo total teniendo en cuenta los grupos de 3 mangos y los mangos restantes
+# que no alcanzan a formar un grupo.
+
 def calcular_costo_mango(cantidad, precio_por_mango):
     # Calcular cuántos grupos de 3 mangoes hay
     grupos = cantidad // 3

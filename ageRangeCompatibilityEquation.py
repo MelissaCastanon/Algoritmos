@@ -1,3 +1,9 @@
+# Este programa calcula el rango de edad aceptable para relaciones basado en la edad proporcionada por el usuario.
+# Si la edad es mayor a 14 años, el rango se calcula mediante la fórmula "mitad de la edad + 7" para la edad mínima
+# y "2*(edad - 7)" para la edad máxima.
+# Si la edad es 14 o menor, el rango de edad se calcula permitiendo un 10% por encima y por debajo de la edad proporcionada.
+# El programa solicita al usuario que ingrese una edad válida entre 1 y 100 y luego muestra el rango correspondiente.
+
 import math
 def age_range(age):
     # Calcular el rango de edad según la edad proporcionada

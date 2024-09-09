@@ -1,3 +1,8 @@
+# Este programa calcula la presión total en una vasija que contiene dos gases utilizando la ley de los gases ideales.
+# Se requiere que el usuario ingrese la masa molar y la masa presente de cada gas, el volumen de la vasija en dm^3,
+# y la temperatura en grados Celsius. El programa convierte la temperatura a Kelvin, utiliza la constante de los gases
+# ideales (R = 0.082 dm^3·atm·K^−1·mol^−1) y calcula la presión total en atmósferas (atm).
+
 def total_pressure(M1, M2, m1, m2, V, T):
     # Convertir la temperatura de Celsius a Kelvin
     T_kelvin = T + 273.15
